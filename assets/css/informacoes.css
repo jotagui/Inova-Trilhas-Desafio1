@@ -1,0 +1,72 @@
+.secao--slides {
+    background: linear-gradient(#190096,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)),url(../img/imgsecao2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 2rem;
+}
+
+
+.slides-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos__descricao {
+    text-align: justify;
+}
+
+.fotos {
+    width: 70%;
+    height: auto;
+    margin-bottom: 1rem;
+    vertical-align: auto;
+}
+
+.botoes__container {
+    margin-bottom: 1rem;
+}
+
+.botao {
+    width: 6rem;
+    height: 3rem;
+    vertical-align: bottom;
+}
+
+.secao--videos {
+    background-color: rgb(170, 35, 35);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+}
+
+.secao--formulario {
+    background-color: black;
+    margin: 2rem 0rem;
+}
+
+.form-input {
+    width: 60vw;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.form-button {
+    display: inline-block;
+}
+
+@media screen and (min-width: 1024px) {
+    .secao--slides {
+        background: linear-gradient(#190096,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)),url(../img/imgsecao2-wide.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+
+    .botao {
+        width: 4rem;
+        height: 2rem;
+    }
+}

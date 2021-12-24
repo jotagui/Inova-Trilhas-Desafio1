@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--
+    <link rel="stylesheet" href="assets/css/reset.css">
+    Depois de algumas pesquisas, me pareceu que utilizar o reset junto ao normalize não é boa prática, logo deixei de fora
+    -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/estiloPadrao.css">
+    <link rel="stylesheet" href="assets/css/informacoes.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maranhão - Vivendo a Cultura</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__container"></div>
+    </header>
+
+    <main class="conteudo">
+        <div class="conteudo__container">
+            <section class="secao__container">
+                <div class="secao__conteudo secao--slides">
+                    <h1>Maranhão - Diversidade Cultural</h1>
+                    <div class="slides__container">
+                        <div class="slides-informacoes">
+                            <h2 tabindex="0" class="slides-informacoes--titulo">Bumba-Meu-Boi</h2>
+                            <img tabindex="0" class="fotos" alt="Dançarinos do Bumba-Meu-Boi" src="assets/img/boi.jpg">              
+                            <figcaption tabindex="0" class="fotos__descricao">
+                                <p>
+                                    Num espetáculo de cores, danças e ritmos, o Bumba-Meu-Boi é a expressão máxima da cultura popular do Maranhão.
+                                </p>
+                                <p>
+                                    Elevado a Patrimônio Imaterial do povo brasileiro, a manifestação tem origens indefinidas, mas elementos culturais africanos e europeus, introduzidos principalmente por meio da religiosidade, são evidentes. Nas comunidades que fazem a brincadeira, as celebrações e o trabalho em torno da festa duram praticamente o ano inteiro.
+                                </p>
+                                <p>
+                                    Um dos desafios é preparar o couro do boi, revestimento de camurça belamente decorado com canutilhos que recobrem o corpo do animal, pois é de bom tom que este seja renovado a cada temporada. Mas é durante os festejos juninos que ele reina absoluto, arrastando multidões e encantando quem assiste pela primeira vez suas apresentações. No Bumba-Meu-Boi do Maranhão a variedade de sotaques, ou ritmos, faz a diferença.
+                                </p>
+                            </figcaption>
+                            <div class="botoes__container">
+                                <button class="botao botao--esquerda" aria-label="Ir para Lençóis Maranhenses" onclick="clicaBotao(-1);focarTitulo();">&#10094;</button>
+                                <button class="botao botao--direita" aria-label="Ir para Centro Histórico de São Luís" onclick="clicaBotao(+1);focarTitulo();">&#10095;</button>
+                            </div> 
+                        </div>
+                        <div class="slides-informacoes">
+                            <h2 tabindex="0" class="slides-informacoes--titulo">Centro Histórico de São Luís</h2>
+                            <img tabindex="0" class="fotos" alt="Casarão antigo decorado de azulejos na Rua Portugal em São Luís" src="assets/img/centrohistorico.jpg">
+                            <figcaption tabindex="0" class="fotos__descricao">
+                                <p>
+                                    Passear pelo Centro Histórico de São Luís e conhecer a história de cada beco e dos muitos casarões históricos é uma experiência encantadora.
+                                </p>
+                                <p>
+                                    Além de propiciar uma viagem no tempo, o passeio nos traz a certeza da beleza e do charme dos 4 mil casarões, distribuídos por mais de 220 hectares, tombados como Patrimônio Mundial da Humanidade pela Unesco desde 1997.
+                                </p>
+                                <p>
+                                    Os casarões seculares, em sua maioria, revestidos de azulejos portugueses pintados à mão, compõe um dos mais importantes conjuntos arquitetônicos de essência portuguesa ainda preservados da América Latina.
+                                </p>
+                            </figcaption>
+                            <div class="botoes__container">
+                                <button class="botao botao--esquerda" aria-label="Ir para Bumba-Meu-Boi" onclick="clicaBotao(-1);focarTitulo();">&#10094;</button>
+                                <button class="botao botao--direita" aria-label="Ir para Gastronomia Local" onclick="clicaBotao(+1);focarTitulo();">&#10095;</button>
+                            </div>
+                        </div>
+                        <div class="slides-informacoes">
+                            <h2 tabindex="0" class="slides-informacoes--titulo">Gastronomia Local</h2>
+                            <img tabindex="0" class="fotos" alt="Arroz de Cuxá" src="assets/img/comidastipicas2.jpg">
+                            <figcaption tabindex="0" class="fotos__descricao">
+                                <p>
+                                    Foram tantos os temperos e influências de europeus, índios, africanos e outros povos, que a culinária maranhense só poderia dar no que deu: uma conjunção exuberante, única, inigualável de sabores e receitas na medida para surpreender.
+                                </p>
+                                <p>
+                                    Nessa mesa farta existe, é claro, um carro chefe. É o celebrado arroz de cuxá, que vai muito bem com frutos do mar e tem como principal ingrediente uma folha azedinha chamada vinagreira, além de camarão seco e gergelim.
+                                </p>
+                            </figcaption>
+                            <div class="botoes__container">
+                                <button class="botao botao--esquerda" aria-label="Ir para Centro Histórico de São Luís" onclick="clicaBotao(-1);focarTitulo();">&#10094;</button>
+                                <button class="botao botao--direita" aria-label="Ir para Lençóis Maranhenses" onclick="clicaBotao(+1);focarTitulo();">&#10095;</button>
+                            </div> 
+                        </div>
+                        <div class="slides-informacoes">
+                            <h2 tabindex="0" class="slides-informacoes--titulo">Lençóis Maranhenses</h2>
+                            <img tabindex="0" class="fotos" alt="Diversas dunas com lagoas entre elas" src="assets/img/lencoismaranhenses.jpg">
+                            <figcaption tabindex="0" class="fotos__descricao">
+                                <p>
+                                    Os Lençóis Maranhenses ficam no litoral oriental do Maranhão e compreende os municípios de Humberto de Campos, Primeira Cruz, Santo Amaro e Barreirinhas, este último sendo o principal portão de entrada para esta fantástica beleza natural.
+                                </p>
+                                <p>
+                                    Seu maior atrativo, é o Parque Nacional dos Lençóis Maranhenses, às margens do Rio Preguiças. São 155 mil hectares de paisagem deslumbrantes, cheio de dunas com até 40 metros de altura e lagoas de água doce e cristalina.
+                                </p>
+                                <p>
+                                    O Parque é considerado uma formação geológica rara no planeta, apresentando um ecossistema único e riquíssimo. As dunas chegam do litoral adentrando em até 25 Km da costa e as inúmeras e límpidas lagoas se formam com as chuvas do período chuvoso que vai de dezembro até abril.
+                                </p>                             
+                            </figcaption>
+                            <div class="botoes__container">
+                                <button class="botao botao--esquerda" aria-label="Ir para Gastronomia Local" onclick="clicaBotao(-1);focarTitulo();">&#10094;</button>
+                                <button class="botao botao--direita" aria-label="Ir para Bumba-Meu-Boi" onclick="clicaBotao(+1);focarTitulo();">&#10095;</button>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                
+                
+            </section>
+            <section class="secao__container">
+                <div class="secao__conteudo secao--videos">
+                    <h2 tabindex="0">Um pouco do Maranhão</h2>
+                    <p tabindex="0">Ficou curioso? Assista esses vídeos para ter um gostinho a mais.</p>
+                    <iframe class="video-youtube" src="https://www.youtube.com/embed/GO-0AlHd9tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video-youtube" src="https://www.youtube.com/embed/N3rg2vOHzbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </section>
+            <section class="secao__container">
+                <div class="secao__conteudo secao--formulario">
+                    <h2 tabindex="0">Próximos eventos</h2>
+                    <p tabindex="0">Quer ficar por dentro dos eventos culturais do Estado? Preencha nosso formulário e receba notícias direto no seu e-mail!</p>
+
+                    <div class="formulario__container">                        
+                        <form class="formulario" action="">
+                          <input class="form-input" type="email" data-form-input>
+                          <button class="form-button" data-form-button>Enviar</button>
+                        </form>                  
+                        <p  tabindex="0" class="form-msg" data-msg></p>
+                    </div>
+                </div>                
+            </section>
+        </div>        
+        <div class="gradiente-final"></div>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__container">
+            <p>Página criada por João Guilherme Garcia Castro</p>
+        </div>
+    </footer>
+    <script src="assets/js/informacoes.js"></script>
+    <script src="assets/js/formulario.js"></script>
+    <script src="assets/js/foco.js"></script>
+</body>
+</html>

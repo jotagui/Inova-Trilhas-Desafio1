@@ -1,0 +1,73 @@
+body {
+    font-family: 'Oxygen', serif;
+    text-shadow: 4px 4px 2px #000;
+}
+
+.cabecalho {
+    align-self: flex-start;
+    display: flex;
+    height: 150px;
+}
+
+.cabecalho__container {
+    background-image: url("../img/Bandeira_do_Maranhão-alt2.svg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.secao__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.secao__conteudo {
+    font-weight: 700;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.video-youtube {
+    height: 315px;
+    width: auto;
+    padding: 1rem;
+}
+
+.gradiente-final {
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),#190096);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 150px;
+    width: 100vw;
+}
+
+.rodape {
+    background-color: #190096;
+    color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.rodape__container p {
+    font-size: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__container {
+        flex-direction: row;
+    }
+
+    .secao__conteudo {
+        padding: 6rem;
+    }
+
+    .video-youtube {
+        height: 500px;
+        width: auto;
+        padding: 1rem;
+    }
+}
